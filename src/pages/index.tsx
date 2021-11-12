@@ -31,4 +31,4 @@ const IndexPage: FunctionComponent = () => {
     );
 }
 
-export default IndexPage
+export default IndexPage 
