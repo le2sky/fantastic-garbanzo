@@ -2,10 +2,15 @@ import React, { FunctionComponent } from "react";
 import { Global, css } from "@emotion/react";
 
 const defaultStyle = css`
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"');
+
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 500;
+
   }
 
   html,
@@ -28,7 +33,7 @@ const defaultStyle = css`
 `
 
 const GlobalStyle: FunctionComponent = function () {
-    return <Global styles={defaultStyle} />
+  return <Global styles={defaultStyle} />
 }
 
 export default GlobalStyle;
