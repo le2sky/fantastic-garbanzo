@@ -16,11 +16,13 @@ const AtrractWrapper: FunctionComponent = ({ children }) => {
     })
     return (
         <div>
-            {trail.map(({ height, ...style }, index) => (
-                <a.div key={index} style={style}>
-                    <a.div>{items[index]}</a.div>
-                </a.div>
-            ))}
+            {trail.map(({ height, ...style }, index) => {
+                return (
+                    <a.div key={index} style={style}>
+                        <a.div>{items[index]}</a.div>
+                    </a.div>
+                );
+            })}
         </div>
     )
 }

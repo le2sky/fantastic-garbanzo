@@ -17,12 +17,15 @@ const defaultStyle = css`
   body,
   #___gatsby {
     height: 100%;
+    background-color: black;
   }
   
-  html::-webkit-scrollbar{
-      display:none;
+  body{
+    -ms-overflow-style: none;
   }
-
+  ::-webkit-scrollbar {
+    display: none;
+  }
 
   a,
   a:hover {

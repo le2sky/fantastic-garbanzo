@@ -35,24 +35,48 @@ const AttractWordList = styled.div`
     flex-direction: column;
     justify-content: center;
     font-size: 70px;
-    height: 500px;
-    margin: auto 0;
+    height: 200px;
+    margin-top: 50px;
+
     @media (max-width: 856px) {
         font-size: 40px;
+        height: 150px
     }
     @media (max-width: 528px) {
         font-size: 20px;
+        height: 80px
     }
     @media (max-width: 310px) {
         font-size: 13px;
     }
 `
+const AttractWordList2 = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    height: 100px;
+    margin-top: 10px;
 
+
+    
+
+    @media (max-width: 856px) {
+        font-size: 30px;
+        heght: 70px;
+    }
+    @media (max-width: 528px) {
+        font-size: 15px;
+        height: 30px;
+    }
+    @media (max-width: 310px) {
+        font-size: 13px;
+    }
+`
 const StyledHr = styled.hr`
     height: 1px;
     border-width: 1px 0px 0px 0px;
     border-color: #808080;
-
 `
 
 
@@ -65,8 +89,11 @@ const Introduction: FunctionComponent = function () {
                 <AttractWordList>
                     <AttractWord text={'창의적인 아이디어를 위해'} />
                     <AttractWord text={'끊임없이 학습하는'} />
-                    <AttractWord text={'이하늘입니다.🐱‍🏍'} />
                 </AttractWordList>
+
+                <AttractWordList2>
+                    <AttractWord text={'이하늘입니다.🐱‍🏍'} />
+                </AttractWordList2>
             </Wrapper>
         </Background>
     );
