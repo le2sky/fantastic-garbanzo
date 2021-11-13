@@ -3,7 +3,7 @@ module.exports = {
     title: `Gatsby Default Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://le2sky.github.io/fantastic-garbanzo/`,
   },
   plugins: [
     {
@@ -13,7 +13,6 @@ module.exports = {
         allExtensions: true,
       }
     },
-    `react-spring`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
