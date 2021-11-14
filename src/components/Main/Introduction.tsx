@@ -8,6 +8,7 @@ const Background = styled.div`
     background-image: url(${background});
     background-repeat: no-repeat;
     backround-size: contain;
+  
 `
 
 const Wrapper = styled.div`
